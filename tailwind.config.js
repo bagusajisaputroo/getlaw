@@ -10,6 +10,12 @@ export default {
         "./resources/**/*.vue",
         "./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
         "./node_modules/flowbite/**/*.js",
+        "./resources/views/book.blade.php",
+        "./resources/views/home.blade.php",
+        "./resources/views/legal-aid.blade.php",
+        "./resources/views/lembaga.blade.php",
+        "./resources/views/news-detail.blade.php",
+        "./resources/views/news.blade.php",
     ],
     theme: {
         extend: {
