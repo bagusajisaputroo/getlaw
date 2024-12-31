@@ -6,7 +6,6 @@
         }
     },
     "routes": [
-        { "source": "/(.*)", "destination": "/" },
         {
             "src": "/storage/(.*)",
             "dest": "/public/storage/"
@@ -14,6 +13,12 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/"
         }
     ],
     "env": {
@@ -31,5 +36,4 @@
         "SESSION_DRIVER": "cookie"
     },
     "outputDirectory": "public"
-    
 }
